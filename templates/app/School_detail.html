@@ -1,6 +1,5 @@
 {% extends 'app/dummy.html' %}
 
-
 {% block title  %}
         <title>Detail page</title>
 {% endblock %}
@@ -9,7 +8,7 @@
 {% block body_block %}
     <h1>Detail Information of {{schoolobj}}</h1>
 
-    <table border="3px">
+    <table border="3px" style="background-color: rgb(168, 143, 143);">
     <tr>
         <th>SchoolName</th>
         <th>SchoolPrincipal</th>
@@ -18,8 +17,8 @@
 
     <tr>
         <td>{{schoolobj.Sname}}</td>
-        <td>{{schoolobj.Sprincipal}}</td>
-        <td>{{schoolobj.Slocation}}</td>
+        <td>{{schoolobj.Sprin}}</td>
+        <td>{{schoolobj.Sloc}}</td>
     </tr>
  </table>
 
